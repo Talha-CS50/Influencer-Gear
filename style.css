@@ -1,0 +1,10 @@
+/* Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-poppins{
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+}
