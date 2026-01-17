@@ -15,7 +15,7 @@
     border: none;
     border-radius: 40px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     transition: 0.5s;
 }
@@ -150,4 +150,73 @@
     color: #E02C6D;
     cursor: pointer;
     
+}
+/* Community Section CSS */
+.community-container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.community-text{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.community-text h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0A0826;
+}
+.community-text p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 20px 0;
+}
+
+/* Footer Section CSS */
+.footer-container{
+    max-width: 100%;
+    background-color: #0A0826;
+    text-align: center;
+}
+.footer-text{
+    padding-top: 50px;
+}
+.footer-text h2{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.footer-text p{
+    color: #D9DBE1;
+    font-size: 13px;
+    padding-top: 10px;
+
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    gap: 15px;
+    
+}
+.icon-box{
+    width: 40px;
+    height: 40px;
+    background-color: #1e1a51;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
