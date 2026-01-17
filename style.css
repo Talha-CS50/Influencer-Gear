@@ -8,3 +8,80 @@
     font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
 }
+.btn{
+    padding: 12px 28px;
+    color: #fff;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color:  rgb(218, 17, 91);
+}
+
+/* Header CSS */
+.nav-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo h1{
+    color: #3A3A3A;
+    font-size: 1.7rempx;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-menu ul {
+    display: flex;
+    gap: 30px;
+}
+.nav-menu ul li{
+    list-style-type: none;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.6s;
+}
+
+.nav-menu ul li a:hover{
+    color: #E02C6D;
+}
+
+.banner-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-text{
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.banner-text h1{
+    font-size: 2.3rem;
+    color: #3A3A3A;
+    font-weight: 700;
+}
+.banner-text p{
+    font-size: 1rem;
+    color: #3A3A3A;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 20px 0px;
+}
+.banner-img img{
+    width: 100%;
+    padding-left: 20px;
+}
